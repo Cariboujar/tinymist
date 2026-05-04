@@ -1159,9 +1159,9 @@ dependencies = [
 
 [[package]]
 name = "comemo"
-version = "0.5.0"
+version = "0.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "649d7b2d867b569729c03c0f6968db10bc95921182a1f2b2012b1b549492f39d"
+checksum = "3c963350b2b08aa4b725d7802593245380ab53dacfedcaa971385fc33306c0d4"
 dependencies = [
  "comemo-macros",
  "parking_lot",
@@ -1172,9 +1172,9 @@ dependencies = [
 
 [[package]]
 name = "comemo-macros"
-version = "0.5.0"
+version = "0.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "51c87fc7e85487493ddedae1a3a34b897c77ad8825375b79265a8a162c28d535"
+checksum = "a3c400139ba1389ef9e20ad2d87cda68b437a66483aa0da616bdf2cea7413853"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -7386,7 +7386,7 @@ dependencies = [
 [[package]]
 name = "typst"
 version = "0.14.2"
-source = "git+https://github.com/Myriad-Dreamin/typst.git?tag=tinymist%2Fv0.14.6-rc2#28af048d65cbb7a5fc78f3ca1a20c9e885384a62"
+source = "git+https://github.com/Cariboujar/typst.git?tag=synthetic-weight#5f30349029a8b13e91cabd1b509abddaecf39044"
 dependencies = [
  "comemo",
  "ecow",
@@ -7425,7 +7425,7 @@ checksum = "5613cb719a6222fe9b74027c3625d107767ec187bff26b8fc931cf58942c834f"
 [[package]]
 name = "typst-eval"
 version = "0.14.2"
-source = "git+https://github.com/Myriad-Dreamin/typst.git?tag=tinymist%2Fv0.14.6-rc2#28af048d65cbb7a5fc78f3ca1a20c9e885384a62"
+source = "git+https://github.com/Cariboujar/typst.git?tag=synthetic-weight#5f30349029a8b13e91cabd1b509abddaecf39044"
 dependencies = [
  "comemo",
  "ecow",
@@ -7444,7 +7444,7 @@ dependencies = [
 [[package]]
 name = "typst-html"
 version = "0.14.2"
-source = "git+https://github.com/Myriad-Dreamin/typst.git?tag=tinymist%2Fv0.14.6-rc2#28af048d65cbb7a5fc78f3ca1a20c9e885384a62"
+source = "git+https://github.com/Cariboujar/typst.git?tag=synthetic-weight#5f30349029a8b13e91cabd1b509abddaecf39044"
 dependencies = [
  "bumpalo",
  "comemo",
@@ -7464,7 +7464,7 @@ dependencies = [
 [[package]]
 name = "typst-layout"
 version = "0.14.2"
-source = "git+https://github.com/Myriad-Dreamin/typst.git?tag=tinymist%2Fv0.14.6-rc2#28af048d65cbb7a5fc78f3ca1a20c9e885384a62"
+source = "git+https://github.com/Cariboujar/typst.git?tag=synthetic-weight#5f30349029a8b13e91cabd1b509abddaecf39044"
 dependencies = [
  "az",
  "bumpalo",
@@ -7499,7 +7499,7 @@ dependencies = [
 [[package]]
 name = "typst-library"
 version = "0.14.2"
-source = "git+https://github.com/Myriad-Dreamin/typst.git?tag=tinymist%2Fv0.14.6-rc2#28af048d65cbb7a5fc78f3ca1a20c9e885384a62"
+source = "git+https://github.com/Cariboujar/typst.git?tag=synthetic-weight#5f30349029a8b13e91cabd1b509abddaecf39044"
 dependencies = [
  "az",
  "bitflags 2.10.0",
@@ -7564,7 +7564,7 @@ dependencies = [
 [[package]]
 name = "typst-macros"
 version = "0.14.2"
-source = "git+https://github.com/Myriad-Dreamin/typst.git?tag=tinymist%2Fv0.14.6-rc2#28af048d65cbb7a5fc78f3ca1a20c9e885384a62"
+source = "git+https://github.com/Cariboujar/typst.git?tag=synthetic-weight#5f30349029a8b13e91cabd1b509abddaecf39044"
 dependencies = [
  "heck",
  "proc-macro2",
@@ -7575,7 +7575,7 @@ dependencies = [
 [[package]]
 name = "typst-pdf"
 version = "0.14.2"
-source = "git+https://github.com/Myriad-Dreamin/typst.git?tag=tinymist%2Fv0.14.6-rc2#28af048d65cbb7a5fc78f3ca1a20c9e885384a62"
+source = "git+https://github.com/Cariboujar/typst.git?tag=synthetic-weight#5f30349029a8b13e91cabd1b509abddaecf39044"
 dependencies = [
  "az",
  "bytemuck",
@@ -7589,6 +7589,7 @@ dependencies = [
  "rustc-hash 2.1.1",
  "serde",
  "smallvec",
+ "ttf-parser",
  "typst-assets",
  "typst-library",
  "typst-macros",
@@ -7600,7 +7601,7 @@ dependencies = [
 [[package]]
 name = "typst-realize"
 version = "0.14.2"
-source = "git+https://github.com/Myriad-Dreamin/typst.git?tag=tinymist%2Fv0.14.6-rc2#28af048d65cbb7a5fc78f3ca1a20c9e885384a62"
+source = "git+https://github.com/Cariboujar/typst.git?tag=synthetic-weight#5f30349029a8b13e91cabd1b509abddaecf39044"
 dependencies = [
  "arrayvec",
  "bumpalo",
@@ -7617,7 +7618,7 @@ dependencies = [
 [[package]]
 name = "typst-render"
 version = "0.14.2"
-source = "git+https://github.com/Myriad-Dreamin/typst.git?tag=tinymist%2Fv0.14.6-rc2#28af048d65cbb7a5fc78f3ca1a20c9e885384a62"
+source = "git+https://github.com/Cariboujar/typst.git?tag=synthetic-weight#5f30349029a8b13e91cabd1b509abddaecf39044"
 dependencies = [
  "bytemuck",
  "comemo",
@@ -7647,7 +7648,7 @@ dependencies = [
 [[package]]
 name = "typst-svg"
 version = "0.14.2"
-source = "git+https://github.com/Myriad-Dreamin/typst.git?tag=tinymist%2Fv0.14.6-rc2#28af048d65cbb7a5fc78f3ca1a20c9e885384a62"
+source = "git+https://github.com/Cariboujar/typst.git?tag=synthetic-weight#5f30349029a8b13e91cabd1b509abddaecf39044"
 dependencies = [
  "base64 0.22.1",
  "comemo",
@@ -7688,7 +7689,7 @@ dependencies = [
 [[package]]
 name = "typst-syntax"
 version = "0.14.2"
-source = "git+https://github.com/Myriad-Dreamin/typst.git?tag=tinymist%2Fv0.14.6-rc2#28af048d65cbb7a5fc78f3ca1a20c9e885384a62"
+source = "git+https://github.com/Cariboujar/typst.git?tag=synthetic-weight#5f30349029a8b13e91cabd1b509abddaecf39044"
 dependencies = [
  "ecow",
  "rustc-hash 2.1.1",
@@ -7717,7 +7718,7 @@ dependencies = [
 [[package]]
 name = "typst-timing"
 version = "0.14.2"
-source = "git+https://github.com/Myriad-Dreamin/typst.git?tag=tinymist%2Fv0.14.6-rc2#28af048d65cbb7a5fc78f3ca1a20c9e885384a62"
+source = "git+https://github.com/Cariboujar/typst.git?tag=synthetic-weight#5f30349029a8b13e91cabd1b509abddaecf39044"
 dependencies = [
  "parking_lot",
  "serde",
@@ -7741,7 +7742,7 @@ dependencies = [
 [[package]]
 name = "typst-utils"
 version = "0.14.2"
-source = "git+https://github.com/Myriad-Dreamin/typst.git?tag=tinymist%2Fv0.14.6-rc2#28af048d65cbb7a5fc78f3ca1a20c9e885384a62"
+source = "git+https://github.com/Cariboujar/typst.git?tag=synthetic-weight#5f30349029a8b13e91cabd1b509abddaecf39044"
 dependencies = [
  "once_cell",
  "portable-atomic",
